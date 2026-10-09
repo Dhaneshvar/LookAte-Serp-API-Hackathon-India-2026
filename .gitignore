@@ -1,0 +1,26 @@
+# Secrets: never commit real keys. Copy backend/.env.example to backend/.env instead.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Runtime data written by the itinerary optimizer
+backend/static/locations.json
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

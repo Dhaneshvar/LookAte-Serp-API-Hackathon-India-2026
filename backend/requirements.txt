@@ -1,0 +1,8 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+openai>=1.54.0
+python-dotenv==1.0.0
+requests==2.31.0
+Pillow==10.0.1
+gunicorn==21.2.0
+serpapi==0.1.5
